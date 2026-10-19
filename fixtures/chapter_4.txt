@@ -1,0 +1,22 @@
+CHAPTER 4: RESULTS
+
+4.1 Overview
+Three themes emerged from the analysis.
+
+4.2 Theme 1: Time Savings
+Most teachers reported saving time. One teacher said "it cuts my marking time in half". Another said it was "a huge relief".
+
+4.3 Theme 2: Trust
+Teachers were cautious about AI feedback. Many said they checked outputs. A few said they trusted it completely.
+
+Table 1
+Theme          Count
+Time savings   19
+Trust          16
+Workload       11
+
+4.4 Theme 3: Workload
+Teachers said workload shifted rather than reduced. This suggests that AI does not truly reduce workload, which is an important finding for schools.
+
+4.5 Summary
+The results show that AI saves time but raises trust concerns.

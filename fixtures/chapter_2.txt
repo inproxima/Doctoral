@@ -1,0 +1,16 @@
+CHAPTER 2: LITERATURE REVIEW
+
+2.1 Search Strategy
+I searched Google Scholar for "AI in education" and selected relevant papers. Twenty-two studies were included.
+
+2.2 Generative AI in Education
+Several studies report positive outcomes from AI use in classrooms (Chen, 2023; Okafor, 2023; Lindqvist, 2024). Chen (2023) found teachers saved time. Okafor (2023) found students engaged more. Lindqvist (2024) found improved feedback quality. All of these studies show that AI is beneficial for education.
+
+2.3 Teacher Trust in Automated Systems
+Trust has been studied in aviation and medicine. Some work suggests teachers distrust automated grading, but this is likely outdated.
+
+2.4 Theoretical Framework
+This study uses the Technology Acceptance Model (TAM). TAM says perceived usefulness and perceived ease of use predict adoption. TAM is a well-known model and is therefore appropriate here.
+
+2.5 The Gap
+As shown above, no study has examined teacher use of generative AI in formative assessment. This confirms the gap identified in Chapter 1.

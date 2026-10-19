@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doctoral Examination</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <h1 id="app-heading">🎓 Doctoral Examination</h1>
+    <span class="model-badge" id="model-badge">…</span>
+  </div>
+  <div class="header-actions">
+    <button class="btn ghost" id="btn-test">Test connection</button>
+  </div>
+</header>
+
+<div class="layout">
+
+  <aside id="sidebar">
+    <h2>Examination Setup</h2>
+
+    <label class="field">
+      <span>Examination Mode</span>
+      <select id="mode"></select>
+    </label>
+    <p class="hint" id="mode-hint"></p>
+
+    <label class="field">
+      <span id="title-label">Title</span>
+      <input type="text" id="title" placeholder="Used throughout the examination">
+    </label>
+
+    <label class="field">
+      <span>Examination Focus / Chair Concerns</span>
+      <textarea id="concerns" rows="3" placeholder="e.g. methodological rigor, statistical robustness…"></textarea>
+    </label>
+
+    <hr>
+
+    <h3>Document</h3>
+    <p class="hint" id="files-hint">Upload the complete document as one PDF or DOCX and its chapters are found automatically. Separate chapter files named <code>chapter_1.pdf</code> and so on also work.</p>
+    <label class="btn file-btn">Choose document or chapter files<input type="file" id="files" hidden multiple accept=".pdf,.docx,.txt,.md"></label>
+    <div id="file-status" class="muted small"></div>
+
+    <table class="grid compact" id="chapter-table">
+      <thead><tr><th>Ch</th><th>Source</th><th>Words</th></tr></thead>
+      <tbody></tbody>
+    </table>
+
+    <hr>
+
+    <h3>Original Files <span class="muted small" id="uploads-total"></span></h3>
+    <p class="hint">Every file you upload is kept with the run, so you can open the source again later. Deleting one leaves the extracted text and all generated material untouched.</p>
+    <ul id="upload-list" class="upload-list"></ul>
+    <button class="btn ghost block small-btn hidden" id="btn-delete-uploads">🗑 Delete all originals</button>
+
+    <hr>
+
+    <button class="btn primary block" id="btn-examine">▶ Run full examination</button>
+    <label class="check"><input type="checkbox" id="force"> Regenerate everything, ignore saved artifacts</label>
+
+    <div id="progress-panel" class="hidden">
+      <div class="progress-head">
+        <strong id="progress-label">Preparing…</strong>
+        <span class="muted small" id="progress-count"></span>
+      </div>
+      <div class="bar"><div class="bar-fill" id="bar-fill"></div></div>
+      <ul id="unit-list" class="unit-list"></ul>
+    </div>
+
+    <hr>
+
+    <h3>Saved Runs</h3>
+    <select id="run-select"><option value="">— new examination —</option></select>
+    <button class="btn ghost block small-btn" id="btn-new-run">＋ New examination</button>
+  </aside>
+
+  <main>
+    <!-- Chapter tabs vary with the mode, so the whole nav is drawn by app.js. -->
+    <nav id="tabs"></nav>
+
+    <section id="panels"></section>
+  </main>
+
+</div>
+
+<div id="toast" class="toast hidden"></div>
+
+<footer>
+  <span id="footer-heading">Doctoral Examination Assistant</span>
+  ·
+  <span id="footer-model">…</span>
+  ·
+  🎓 AI-assisted examination. Final decisions must always involve human expert judgement.
+</footer>
+
+<script src="/app.js" type="module"></script>
+</body>
+</html>

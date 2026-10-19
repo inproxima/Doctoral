@@ -1,0 +1,21 @@
+CHAPTER 1: INTRODUCTION
+
+1.1 Background
+Teacher adoption of generative AI tools in secondary classrooms has grown rapidly since 2023. Schools have invested in these tools, yet little is known about how teachers actually integrate them into assessment practice.
+
+1.2 Problem Statement
+There is a gap in the literature regarding teacher use of generative AI in formative assessment. No prior study has examined this. The problem is important because assessment shapes learning.
+
+1.3 Research Questions
+RQ1: How do secondary teachers use generative AI tools when designing formative assessment tasks?
+RQ2: What factors shape teachers' trust in AI-generated feedback?
+RQ3: How does AI use affect teacher workload?
+
+1.4 Significance
+This study is significant because it addresses an important and timely topic. The findings will be very useful for schools, policymakers, and teachers everywhere.
+
+1.5 Definitions
+Generative AI: systems that produce text. Formative assessment: assessment for learning.
+
+1.6 Structure of the Dissertation
+Chapter 2 reviews the literature. Chapter 3 sets out the methodology. Chapter 4 presents results. Chapter 5 discusses them. Chapter 6 concludes.

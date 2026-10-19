@@ -1,0 +1,30 @@
+{
+  "name": "doctoral-examiner",
+  "version": "1.0.0",
+  "description": "Cascading AI examination of a doctoral dissertation or research proposal — automatic per-chapter criteria and review generation with cross-chapter de-duplication.",
+  "type": "module",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "style-check": "node scripts/style-check.js",
+    "check": "node scripts/check-syntax.js",
+    "reextract": "node scripts/reextract.js"
+  },
+  "dependencies": {
+    "docx": "^9.9.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mammoth": "^1.8.0",
+    "marked": "^18.1.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.77.0",
+    "pdfjs-dist": "^4.9.155",
+    "pdfmake": "^0.3.11",
+    "source-sans-pro": "^3.6.0",
+    "source-serif-pro": "^3.1.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "doctoral-examiner",
+      "runtimeExecutable": "/usr/bin/env",
+      "runtimeArgs": ["PORT=8031", "node", "server/index.js"],
+      "port": 8031
+    }
+  ]
+}
